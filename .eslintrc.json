@@ -1,23 +1,28 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:prettier/recommended"
-  ],
-  "globals": {},
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
     },
-    "ecmaVersion": 2018,
-    "sourceType": "module"
-  },
-  "plugins": ["react", "import", "react-hooks"],
-  "ignorePatterns": ["node_modules/"],
-  "rules": {},
-  "settings": {
-    "react": {
-      "version": "latest"
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "globals": {},
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": ["react", "import", "react-hooks"],
+    "ignorePatterns": ["node_modules/"],
+    "rules": {},
+    "settings": {
+        "react": {
+            "version": "latest"
+        }
     }
-  }
 }

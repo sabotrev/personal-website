@@ -26,3 +26,12 @@ npm run develop
 
 Navigate to `http://localhost:8000` <br />
 Query data `http://localhost:8000/___graphql`
+
+## TODO
+- [x] Add config file.
+- [x] Add resume.
+- [x] Add hero.
+- [x] Add social media links.
+- [ ] Create underline hover wrapper component.
+- [ ] Add about me?
+- [ ] Add animations?
