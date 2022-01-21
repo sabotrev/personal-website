@@ -10,6 +10,8 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-manifest',
             options: {
+                name: 'Trevor Sabo',
+                start_url: `/`,
                 icon: 'src/images/icon.png',
             },
         },
